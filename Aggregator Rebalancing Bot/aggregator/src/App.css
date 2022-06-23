@@ -1,0 +1,86 @@
+
+
+.Navbar{
+  background-color: black;
+  height: 60px;
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+}
+.Heading{
+  text-align: center;
+  font-size: 25px;
+}
+
+input::placeholder{
+  text-align: center;
+}
+
+.InputData{
+
+margin-top: 20px;
+}
+.Data{
+  flex-direction: column;
+display: flex;
+
+}
+.Button{
+  height: 60px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  margin: 10px 0;
+  border-radius: 6px;
+  font-size: medium;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.14);
+  cursor: pointer;
+  outline: none;
+  transition: 0.2s all;
+
+}
+.Data>input{
+  height: 60px;
+  width: 300px;
+  border-radius: 6px;
+  font-size: large;
+
+}
+.Button:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+.Body-component{
+  position: relative;
+  bottom: 20px;
+}
+
+.Address{
+  margin-left: auto;
+  margin-right: 50px;
+  display: flex;
+}
+.Text{
+  margin-left: 50px;
+}
+.InputData{
+  margin-left: 280px;
+}
+
+.Diag{
+  border-radius: 8px;
+  margin-left: auto;
+ 
+
+}
+.Connect{
+  height: 30px;
+  background-color: white;
+font-weight: bold;
+border-radius: 5px;
+}
